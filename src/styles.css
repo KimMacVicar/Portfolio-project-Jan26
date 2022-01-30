@@ -15,18 +15,20 @@ body {
 h1 {
   font-family: var(--main-heading-font);
   font-weight: bold;
+  font-size: 44px !important;
   color: var(--main-heading-color);
   margin-top: -10px !important;
 }
 h2 {
   font-size: 15px !important;
   color: rgb(5, 36, 36);
-  line-height: 2;
+  line-height: 1.5;
 }
 p {
   font-family: var(--secondary-font);
   font-weight: normal;
   margin: 0;
+  line-height: 30px;
 }
 .hero {
   background-color: rgb(245, 242, 236);
@@ -48,6 +50,54 @@ p {
   font-size: 16px;
   line-height: 27px;
 }
+
+#button2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  color: var(--button-background-color);
+  background-color: white;
+  border-color: var(--button-background-color);
+  padding: var(--button-padding);
+  border-radius: var(--button-border-radius);
+  font-size: 16px;
+  line-height: 27px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
 #button1:hover {
   color: darkcyan;
+  border-color: darkcyan;
+}
+#button2:hover {
+  color: darkcyan;
+  border-color: darkcyan;
+}
+#secondaryHeading {
+  font-size: 30px !important;
+  font-family: var(--secondary-font);
+  padding-top: 40px;
+}
+.project-description {
+  padding: 10px 10px;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+  .secondaryHeading {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+}
+.img-fluid {
+  background-color: var(--main-background-color);
 }
