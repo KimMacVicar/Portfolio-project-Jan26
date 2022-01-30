@@ -101,3 +101,8 @@ p {
 .img-fluid {
   background-color: var(--main-background-color);
 }
+#kaiah,
+#sylus,
+#tables {
+  border-radius: 4px;
+}
