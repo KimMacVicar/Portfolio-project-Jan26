@@ -49,6 +49,7 @@ p {
   text-align: center;
   font-family: "Poppins", sans-serif;
   margin: 30px 30px 50px 30px;
+  font-size: 18px;
 }
 #button1 {
   font-family: "Poppins", sans-serif;
@@ -153,6 +154,9 @@ p {
   .hero {
     padding: 80px 20px;
   }
+  .coding {
+    padding: 80px 20px;
+  }
   #secondaryHeading {
     margin-top: -50px;
   }
@@ -168,6 +172,9 @@ p {
 #tables,
 #kimPups {
   border-radius: 10px;
+}
+#tables {
+  margin-bottom: 30px;
 }
 #kimPups {
   margin-top: 50px;
