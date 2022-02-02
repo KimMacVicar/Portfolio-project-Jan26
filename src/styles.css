@@ -35,9 +35,20 @@ p {
   text-align: center;
   padding: 160px 0;
 }
+.coding {
+  background-color: rgb(245, 242, 236);
+  text-align: center;
+  padding: 160px 0;
+}
 .welcome {
   text-align: center;
   font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+.welcome2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin: 30px 30px 50px 30px;
 }
 #button1 {
   font-family: "Poppins", sans-serif;
@@ -65,6 +76,37 @@ p {
   margin-top: -30px;
   margin-bottom: 30px;
 }
+#button2Return {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  color: var(--button-background-color);
+  background-color: white;
+  border-color: var(--button-background-color);
+  padding: var(--button-padding);
+  border-radius: var(--button-border-radius);
+  font-size: 16px;
+  line-height: 27px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 250px;
+  display: flex;
+  justify-content: center;
+}
+#buttonHome {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+  background-color: var(--button-background-color);
+  padding: var(--button-padding);
+  border-radius: var(--button-border-radius);
+  font-size: 16px;
+  line-height: 27px;
+  margin-top: 40px;
+}
 #button1:hover {
   color: darkcyan;
   border-color: darkcyan;
@@ -73,11 +115,25 @@ p {
   color: darkcyan;
   border-color: darkcyan;
 }
+#buttonHome:hover {
+  color: darkcyan;
+  border-color: darkcyan;
+}
+#button2Return:hover {
+  color: darkcyan;
+  border-color: darkcyan;
+}
 #secondaryHeading {
   font-size: 30px !important;
   font-family: var(--secondary-font);
   padding-top: 40px;
 }
+#secondaryHeading3 {
+  font-size: 30px !important;
+  font-family: var(--secondary-font);
+  margin-top: 20px;
+}
+
 .project-description {
   padding: 10px 10px;
 }
@@ -97,12 +153,28 @@ p {
   .hero {
     padding: 80px 20px;
   }
+  #secondaryHeading {
+    margin-top: -50px;
+  }
+  #secondaryHeading3 {
+    font-size: 30px !important;
+    font-family: var(--secondary-font);
+    margin-top: -30px;
+  }
 }
-.img-fluid {
-  background-color: var(--main-background-color);
-}
+
 #kaiah,
 #sylus,
-#tables {
-  border-radius: 4px;
+#tables,
+#kimPups {
+  border-radius: 10px;
+}
+#kimPups {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  display: block;
+}
+.leaf {
 }
