@@ -37,6 +37,17 @@ p {
   text-align: center;
   padding: 180px 0;
 }
+.contact1 {
+  color: rgb(16, 163, 163);
+}
+.contact1:hover {
+  color: darkcyan;
+}
+.contactHeading {
+  background-color: rgb(245, 242, 236);
+  text-align: left;
+  padding: 180px 150px;
+}
 .backgroundColour {
   background-color: rgb(245, 242, 236);
   text-align: center;
