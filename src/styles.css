@@ -19,11 +19,13 @@ h1 {
   color: var(--main-heading-color);
   margin-top: -10px !important;
 }
+
 h2 {
   font-size: 15px !important;
   color: rgb(5, 36, 36);
   line-height: 1.5;
 }
+
 p {
   font-family: var(--secondary-font);
   font-weight: normal;
@@ -33,13 +35,27 @@ p {
 .hero {
   background-color: rgb(245, 242, 236);
   text-align: center;
-  padding: 160px 0;
+  padding: 180px 0;
+}
+.backgroundColour {
+  background-color: rgb(245, 242, 236);
+  text-align: center;
+  padding: 20px 0;
 }
 .coding {
   background-color: rgb(245, 242, 236);
+  background-size: 100%;
   text-align: center;
   padding: 160px 0;
 }
+.about {
+  background-size: 100%;
+  text-align: left;
+  padding: 100px 0 80px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
 .welcome {
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -49,6 +65,24 @@ p {
   text-align: center;
   font-family: "Poppins", sans-serif;
   margin: 30px 30px 50px 30px;
+  font-size: 18px;
+}
+.welcome3 {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  margin: 0px 30px 10px 30px;
+  font-size: 18px;
+}
+.welcome4 {
+  text-align: left;
+  font-family: "Playfair Display", serif;
+  margin: 10px 30px 0px 30px;
+  font-size: 18px;
+}
+.welcome5 {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  margin: 10px 30px 0px 30px;
   font-size: 18px;
 }
 #button1 {
@@ -89,7 +123,7 @@ p {
   font-size: 16px;
   line-height: 27px;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
   margin-left: auto;
   margin-right: auto;
   max-width: 250px;
@@ -97,6 +131,18 @@ p {
   justify-content: center;
 }
 #buttonHome {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+  background-color: var(--button-background-color);
+  padding: var(--button-padding);
+  border-radius: var(--button-border-radius);
+  font-size: 16px;
+  line-height: 27px;
+  margin-top: 40px;
+}
+#buttonContact {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   text-decoration: none;
@@ -124,21 +170,55 @@ p {
   color: darkcyan;
   border-color: darkcyan;
 }
+#buttonContact:hover {
+  color: darkcyan;
+  border-color: darkcyan;
+}
 #secondaryHeading {
   font-size: 30px !important;
   font-family: var(--secondary-font);
-  padding-top: 40px;
+  padding-top: 70px;
+}
+#secondaryHeading2 {
+  font-size: 30px !important;
+  font-family: var(--secondary-font);
+  padding-top: 0px;
 }
 #secondaryHeading3 {
   font-size: 30px !important;
   font-family: var(--secondary-font);
   margin-top: 20px;
 }
-
+#secondaryHeading4 {
+  font-size: 30px !important;
+  font-family: var(--secondary-font);
+  padding-top: 40px;
+}
+#secondaryHeading5 {
+  font-size: 30px !important;
+  font-family: var(--secondary-font);
+  padding-top: 110px;
+}
+#secondaryHeading6 {
+  font-size: 30px !important;
+  font-family: var(--secondary-font);
+  padding-top: 100px;
+}
+#secondaryHeading8 {
+  font-size: 30px !important;
+  font-family: var(--secondary-font);
+  padding-top: 100px;
+}
 .project-description {
   padding: 10px 10px;
 }
-
+#kimPups {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  display: flex;
+}
 @media (max-width: 960px) {
   .project-description {
     padding: 0;
@@ -157,16 +237,80 @@ p {
   .coding {
     padding: 80px 20px;
   }
+  #secondaryHeading6 {
+    margin-top: -90px;
+    font-size: 24px !important;
+  }
+  #secondaryHeading5 {
+    margin-top: -140px;
+    font-size: 24px !important;
+  }
   #secondaryHeading {
     margin-top: -50px;
+    font-size: 24px !important;
+  }
+  #secondaryHeading2 {
+    margin-top: -30px;
+    font-size: 24px !important;
   }
   #secondaryHeading3 {
     font-size: 30px !important;
     font-family: var(--secondary-font);
     margin-top: -30px;
   }
-}
+  #secondaryHeading4 {
+    margin-top: -55px;
+    font-size: 24px !important;
+  }
+  #secondaryHeading8 {
+    margin-top: -30px;
+    font-size: 24px !important;
+  }
+  .welcome3 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    border-radius: 0;
 
+    margin-bottom: 10px;
+  }
+  .welcome4 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    border-radius: 0;
+    max-width: 100% !important;
+  }
+  .welcome5 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    border-radius: 0;
+    max-width: 100% !important;
+  }
+  #kimPups {
+    margin-bottom: 50px;
+    margin-top: -40px;
+  }
+  .about {
+    text-align: center !important;
+  }
+  #heading1,
+  #heading2,
+  #heading3 {
+    color: var(--main-heading-color);
+    font-size: 30px !important;
+  }
+  #heading1 {
+    padding-top: 40px;
+  }
+}
+#heading1,
+#heading2,
+#heading3 {
+  color: var(--main-heading-color);
+  font-size: 35px;
+}
 #kaiah,
 #sylus,
 #tables,
@@ -176,12 +320,6 @@ p {
 #tables {
   margin-bottom: 30px;
 }
-#kimPups {
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 300px;
-  display: block;
-}
+
 .leaf {
 }
