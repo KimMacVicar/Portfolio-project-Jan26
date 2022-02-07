@@ -273,6 +273,31 @@ nav {
   max-width: 300px;
   display: flex;
 }
+footer .email-link {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+}
+.email-link:hover {
+  color: darkcyan;
+}
+footer {
+  margin: 60px 0;
+}
+footer .social-links a {
+  margin: 30px 20px 30px 30px;
+  color: var(--main-heading-color);
+  background-color: rgb(248, 245, 240);
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+footer .social-links a:hover {
+  color: var(--button-background-color);
+  transition: 120ms ease-in-out;
+  background-color: darkcyan;
+}
 @media (max-width: 800px) {
   .project-description {
     padding: 0;
@@ -334,8 +359,8 @@ nav {
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     border-radius: 0;
-    margin-top: 210px !important;
-    margin-bottom: 10px;
+    margin-top: 20px !important;
+    margin-bottom: 50px;
   }
   .welcome4 {
     text-align: center;
