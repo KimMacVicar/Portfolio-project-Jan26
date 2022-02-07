@@ -25,13 +25,21 @@ h2 {
   color: rgb(5, 36, 36);
   line-height: 1.5;
 }
-
+h3 {
+  font-family: var(--main-heading-font);
+  font-weight: normal;
+  font-size: 38px;
+}
+h4 {
+  font-size: 38px !important;
+}
 p {
   font-family: var(--secondary-font);
   font-weight: normal;
   margin: 0;
   line-height: 30px;
 }
+
 #containerNav {
   margin-left: 0px !important;
   margin-right: 0 !important;
@@ -229,7 +237,7 @@ nav {
   border-color: darkcyan;
 }
 #secondaryHeading {
-  font-size: 30px !important;
+  font-size: 24px !important;
   font-family: var(--secondary-font);
   padding-top: 70px;
 }
@@ -249,12 +257,12 @@ nav {
   padding-top: 40px;
 }
 #secondaryHeading5 {
-  font-size: 30px !important;
+  font-size: 24px !important;
   font-family: var(--secondary-font);
   padding-top: 110px;
 }
 #secondaryHeading6 {
-  font-size: 30px !important;
+  font-size: 24px !important;
   font-family: var(--secondary-font);
   padding-top: 100px;
 }
@@ -285,6 +293,14 @@ footer .email-link {
 footer {
   margin: 60px 0;
 }
+footer .contact-box {
+  background-color: rgb(248, 245, 240);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
 footer .social-links a {
   margin: 30px 20px 30px 30px;
   color: var(--main-heading-color);
@@ -297,6 +313,9 @@ footer .social-links a:hover {
   color: var(--button-background-color);
   transition: 120ms ease-in-out;
   background-color: darkcyan;
+}
+h4 {
+  font-family: var(--main-heading-font);
 }
 @media (max-width: 800px) {
   .project-description {
@@ -414,6 +433,12 @@ footer .social-links a:hover {
   }
   nav ul {
     margin: 0px;
+  }
+  footer .contact-box {
+    padding: 30px;
+  }
+  h4 {
+    font-size: 18px !important;
   }
 }
 #kaiah,
