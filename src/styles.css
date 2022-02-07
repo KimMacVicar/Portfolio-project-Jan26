@@ -269,7 +269,7 @@ nav {
 #secondaryHeading8 {
   font-size: 30px !important;
   font-family: var(--secondary-font);
-  padding-top: 30px;
+  padding-top: 90px;
 }
 .project-description {
   padding: 10px 10px;
@@ -317,10 +317,14 @@ footer .social-links a:hover {
 h4 {
   font-family: var(--main-heading-font);
 }
+
 @media (max-width: 800px) {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  #wildMush {
+    margin-bottom: 300px;
   }
   h1 {
     font-size: 44px;
@@ -399,8 +403,8 @@ h4 {
   .about {
     text-align: center !important;
   }
-  .about1 {
-    padding-inline: auto;
+  .about {
+    padding: 20px 40px;
   }
   #heading1,
   #heading2,
